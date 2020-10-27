@@ -23,7 +23,7 @@ font1_rect = font1_box.get_rect(center=(W - 200, H // 2))
 screen.fill(BLUE)
 pygame.draw.rect(screen, (RED), (370, 180, 50, 50))
 screen.blit(font.render('Всем привет', True, WHITE),(font_rect))
-screen.blit(font1.render('задание на урок', True, YELLOW), (300, 310))
+screen.blit(font1.render('задание на урок', True, YELLOW), (300, 350))
 
 
 print (font_rect)
