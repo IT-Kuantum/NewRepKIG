@@ -29,5 +29,3 @@ while run:
      for e in pygame.event.get():
         if e.type == pygame.QUIT:
             run = False
-
-screen
