@@ -21,7 +21,6 @@ pygame.draw.rect(screen, (RED), (370, 180, 50, 50))
 screen.blit(font.render('Всем привет', True, WHITE),(250, 250))
 screen.blit(font1.render('задание на урок', True, YELLOW), (300, 310))
 
-
 pygame.display.update()
 run = True
 while run:
